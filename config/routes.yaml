@@ -1,3 +1,16 @@
 #index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+ #   path: /index.html.twig
+  #  controller: App\Controller\ArticleController::index
+
+#about:
+ #   path: /about.html.twig
+  #  controller: App\Controller\ArticleController::about
+
+save:
+    path: /article/save
+    controller: App\Controller\ArticleController::save
+
+#show:
+ #   path: /article/{id}
+  #  controller: App\Controller\ArticleController::show
+
